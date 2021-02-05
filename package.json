@@ -1,0 +1,21 @@
+{
+  "name": "js-class-lives",
+  "version": "1.0.0",
+  "description": "Este é o projeto node que estamos trabalhando com módulos e classes em JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwtoledo/javascript-class-lives.git"
+  },
+  "author": "dwtoledo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwtoledo/javascript-class-lives/issues"
+  },
+  "homepage": "https://github.com/dwtoledo/javascript-class-lives#readme"
+}
