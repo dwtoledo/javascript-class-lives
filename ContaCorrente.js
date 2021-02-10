@@ -3,6 +3,7 @@ export default class ContaCorrente {
         this.agencia = agencia
         this.conta = conta
         this._saldo = 0
+        this.chavesPix = []
     }
 
     get saldo(){
