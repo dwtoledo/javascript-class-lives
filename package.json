@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "compile": "tsc",
+    "start": "node ./js/index.js",
+    "tsmonitor": "tsc -w"
   },
   "type": "module",
   "repository": {
@@ -17,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/dwtoledo/javascript-class-lives/issues"
   },
-  "homepage": "https://github.com/dwtoledo/javascript-class-lives#readme"
+  "homepage": "https://github.com/dwtoledo/javascript-class-lives#readme",
+  "dependencies": {
+    "typescript": "^4.2.2"
+  }
 }
